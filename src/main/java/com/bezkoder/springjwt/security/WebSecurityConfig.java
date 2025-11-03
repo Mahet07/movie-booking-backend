@@ -70,6 +70,7 @@ public class WebSecurityConfig {
         configuration.setAllowedOrigins(Arrays.asList(
             "http://localhost:3000",   // React (default)
             "http://localhost:5173",   // Vite
+            "https://movie-booking-frontend-beta.vercel.app/",   // Vite
             "http://localhost:5500",   // VSCode Live Server
             "http://127.0.0.1:5500",
             "http://localhost:4200",   // Angular
